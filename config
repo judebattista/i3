@@ -173,7 +173,12 @@ bindsym Mod1+r mode "resize"
 #bindsym Mod1+x exec "usr/bin/tptoggle.sh"
 bindsym Mod1+x exec $scriptPath/tptoggle.sh
 
+# Bind mod1+z to the primary web browser
 bindsym Mod1+z exec "epiphany-browser"
+
+# Suspend the system
+bindsym Mod1+shift+p exec "systemctl suspend"
+
 #bindsym Mod1+z exec set > /tmp/set.out
 #bindsym Mod1+shift+l exec i3lock
 #
